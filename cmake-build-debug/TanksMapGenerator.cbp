@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="TanksMapGenerator"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/kejbi/CLionProjects/TanksMapGenerator/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/kejbi/CLionProjects/TanksMapGenerator/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/kejbi/CLionProjects/TanksMapGenerator/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/kejbi/CLionProjects/TanksMapGenerator/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/kejbi/CLionProjects/TanksMapGenerator/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/home/kejbi/CLionProjects/TanksMapGenerator/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/kejbi/CLionProjects/TanksMapGenerator/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/kejbi/CLionProjects/TanksMapGenerator/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/kejbi/CLionProjects/TanksMapGenerator/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/kejbi/CLionProjects/TanksMapGenerator/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/kejbi/CLionProjects/TanksMapGenerator/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/kejbi/CLionProjects/TanksMapGenerator/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/kejbi/CLionProjects/TanksMapGenerator/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/kejbi/CLionProjects/TanksMapGenerator/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/kejbi/CLionProjects/TanksMapGenerator/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="TanksMapGenerator">
+				<Option output="/home/kejbi/CLionProjects/TanksMapGenerator/cmake-build-debug/TanksMapGenerator" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/kejbi/CLionProjects/TanksMapGenerator/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/kejbi/CLionProjects/TanksMapGenerator/cmake-build-debug/Makefile&quot;  VERBOSE=1 TanksMapGenerator"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/kejbi/CLionProjects/TanksMapGenerator/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/kejbi/CLionProjects/TanksMapGenerator/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/kejbi/CLionProjects/TanksMapGenerator/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="TanksMapGenerator/fast">
+				<Option output="/home/kejbi/CLionProjects/TanksMapGenerator/cmake-build-debug/TanksMapGenerator" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/kejbi/CLionProjects/TanksMapGenerator/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/kejbi/CLionProjects/TanksMapGenerator/cmake-build-debug/Makefile&quot;  VERBOSE=1 TanksMapGenerator/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/kejbi/CLionProjects/TanksMapGenerator/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/kejbi/CLionProjects/TanksMapGenerator/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/kejbi/CLionProjects/TanksMapGenerator/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/kejbi/CLionProjects/TanksMapGenerator/bricks.cpp">
+			<Option target="TanksMapGenerator"/>
+		</Unit>
+		<Unit filename="/home/kejbi/CLionProjects/TanksMapGenerator/bricks.h">
+			<Option target="TanksMapGenerator"/>
+		</Unit>
+		<Unit filename="/home/kejbi/CLionProjects/TanksMapGenerator/bush.cpp">
+			<Option target="TanksMapGenerator"/>
+		</Unit>
+		<Unit filename="/home/kejbi/CLionProjects/TanksMapGenerator/bush.h">
+			<Option target="TanksMapGenerator"/>
+		</Unit>
+		<Unit filename="/home/kejbi/CLionProjects/TanksMapGenerator/ice.cpp">
+			<Option target="TanksMapGenerator"/>
+		</Unit>
+		<Unit filename="/home/kejbi/CLionProjects/TanksMapGenerator/ice.h">
+			<Option target="TanksMapGenerator"/>
+		</Unit>
+		<Unit filename="/home/kejbi/CLionProjects/TanksMapGenerator/inputvalidator.cpp">
+			<Option target="TanksMapGenerator"/>
+		</Unit>
+		<Unit filename="/home/kejbi/CLionProjects/TanksMapGenerator/inputvalidator.h">
+			<Option target="TanksMapGenerator"/>
+		</Unit>
+		<Unit filename="/home/kejbi/CLionProjects/TanksMapGenerator/main.cpp">
+			<Option target="TanksMapGenerator"/>
+		</Unit>
+		<Unit filename="/home/kejbi/CLionProjects/TanksMapGenerator/map.cpp">
+			<Option target="TanksMapGenerator"/>
+		</Unit>
+		<Unit filename="/home/kejbi/CLionProjects/TanksMapGenerator/map.h">
+			<Option target="TanksMapGenerator"/>
+		</Unit>
+		<Unit filename="/home/kejbi/CLionProjects/TanksMapGenerator/mapconverter.cpp">
+			<Option target="TanksMapGenerator"/>
+		</Unit>
+		<Unit filename="/home/kejbi/CLionProjects/TanksMapGenerator/mapconverter.h">
+			<Option target="TanksMapGenerator"/>
+		</Unit>
+		<Unit filename="/home/kejbi/CLionProjects/TanksMapGenerator/mapmodificator.cpp">
+			<Option target="TanksMapGenerator"/>
+		</Unit>
+		<Unit filename="/home/kejbi/CLionProjects/TanksMapGenerator/mapmodificator.h">
+			<Option target="TanksMapGenerator"/>
+		</Unit>
+		<Unit filename="/home/kejbi/CLionProjects/TanksMapGenerator/mapreader.cpp">
+			<Option target="TanksMapGenerator"/>
+		</Unit>
+		<Unit filename="/home/kejbi/CLionProjects/TanksMapGenerator/mapreader.h">
+			<Option target="TanksMapGenerator"/>
+		</Unit>
+		<Unit filename="/home/kejbi/CLionProjects/TanksMapGenerator/menu.cpp">
+			<Option target="TanksMapGenerator"/>
+		</Unit>
+		<Unit filename="/home/kejbi/CLionProjects/TanksMapGenerator/menu.h">
+			<Option target="TanksMapGenerator"/>
+		</Unit>
+		<Unit filename="/home/kejbi/CLionProjects/TanksMapGenerator/normal.cpp">
+			<Option target="TanksMapGenerator"/>
+		</Unit>
+		<Unit filename="/home/kejbi/CLionProjects/TanksMapGenerator/normal.h">
+			<Option target="TanksMapGenerator"/>
+		</Unit>
+		<Unit filename="/home/kejbi/CLionProjects/TanksMapGenerator/objectmap.cpp">
+			<Option target="TanksMapGenerator"/>
+		</Unit>
+		<Unit filename="/home/kejbi/CLionProjects/TanksMapGenerator/objectmap.h">
+			<Option target="TanksMapGenerator"/>
+		</Unit>
+		<Unit filename="/home/kejbi/CLionProjects/TanksMapGenerator/rocks.cpp">
+			<Option target="TanksMapGenerator"/>
+		</Unit>
+		<Unit filename="/home/kejbi/CLionProjects/TanksMapGenerator/rocks.h">
+			<Option target="TanksMapGenerator"/>
+		</Unit>
+		<Unit filename="/home/kejbi/CLionProjects/TanksMapGenerator/test.cpp">
+			<Option target="TanksMapGenerator"/>
+		</Unit>
+		<Unit filename="/home/kejbi/CLionProjects/TanksMapGenerator/test.h">
+			<Option target="TanksMapGenerator"/>
+		</Unit>
+		<Unit filename="/home/kejbi/CLionProjects/TanksMapGenerator/tile.cpp">
+			<Option target="TanksMapGenerator"/>
+		</Unit>
+		<Unit filename="/home/kejbi/CLionProjects/TanksMapGenerator/tile.h">
+			<Option target="TanksMapGenerator"/>
+		</Unit>
+		<Unit filename="/home/kejbi/CLionProjects/TanksMapGenerator/water.cpp">
+			<Option target="TanksMapGenerator"/>
+		</Unit>
+		<Unit filename="/home/kejbi/CLionProjects/TanksMapGenerator/water.h">
+			<Option target="TanksMapGenerator"/>
+		</Unit>
+		<Unit filename="/home/kejbi/CLionProjects/TanksMapGenerator/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
