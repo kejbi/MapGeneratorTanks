@@ -115,6 +115,7 @@ void Menu::readName() {
 
 void Menu::modifying() {
     if(iv.isMap(map)){
+        display();
         readCoordinates();
         std::cout<<"Enter the new symbol"<<std::endl;
         readSymbol();
@@ -142,7 +143,11 @@ void Menu::display() {
     if(iv.isMap(map)){
         if(map->getSize()>20){
             std::cout<<"Map is too big to display in terminal, "
-                    "better use writeOnlyViewMode"<<std::endl;
+                    "better use writeOnlyViewMode!\nDo you want do that now?\n1.yes 2.no"<<std::endl;
+            readChoice(1,2);
+            if(choice==1){
+                writing();
+            }
         }
         else{
             std::cout<<map;
