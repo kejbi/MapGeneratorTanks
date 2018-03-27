@@ -13,15 +13,15 @@
 //#include "inputvalidator.h"
 class Map{
 private:
-    int size;
-    std::vector <std::string> tab;
+    int size; //size of map
+    std::vector <std::string> tab; //contains symbols of map
     friend class MapReader;
     friend class MapModificator;
-    friend std::ostream& operator<< (std::ostream&, Map* const&);
+    friend std::ostream& operator<< (std::ostream&, Map* const&); //on output map with coordinates
 public:
-    std::vector <std::string> getMap();
-    int getSize();
-    void setSize(int s);
+    std::vector <std::string> getMap(); //returns vector of strings with symbols of map
+    int getSize(); //returns size of map (square map)
+    void setSize(int s); //sets size of the map
 };
 
 #endif //TANKSMAPGENERATOR_MAP_H

@@ -17,15 +17,15 @@ class Menu{
 public:
     void run();
 private:
-    Map* map= nullptr;
-    InputValidator iv;
-    MapReader mr;
-    MapConverter mc;
-    MapModificator mm;
-    ObjectMap* objectmap= nullptr;
-    int choice, running=1, sizein, x, y;
-    char new_symbol;
-    std::string file_name;
+    Map* map= nullptr; //pointer to map using in program
+    InputValidator iv; //used to validating
+    MapReader mr; //used to reading/writing to file
+    MapConverter mc; //used to converitng
+    MapModificator mm; //used to modifying
+    ObjectMap* objectmap= nullptr;// pointer to object map
+    int choice, running=1, sizein, x, y; //input ints and running tells if program is running or not
+    char new_symbol; //input char
+    std::string file_name; //input string
     std::fstream file;
     void showOptions();
     void readChoice(int a, int b);

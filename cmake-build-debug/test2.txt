@@ -1,0 +1,70 @@
+y/x 1  2  3  4  5  6  7  8  9  10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 
+
+1   U  #  U  H  U  #  U  #  H  H  U  H  U  #  H  #  H  #  H  O  H  H  #  H  U  U  H  U  #  U  U  H  U  M  
+
+2   O  #  U  M  #  #  U  H  H  #  U  O  H  H  O  U  @  U  U  #  O  #  U  U  U  O  U  M  M  #  U  H  #  U  
+
+3   U  M  H  M  U  U  M  H  M  #  O  U  U  O  H  H  H  M  #  H  M  #  O  U  M  H  U  U  M  U  #  H  O  H  
+
+4   #  O  U  #  U  O  #  O  U  U  U  H  #  O  #  O  O  #  M  H  U  #  U  @  H  O  M  H  @  H  U  #  U  M  
+
+5   #  H  H  M  #  O  H  #  M  U  O  U  #  H  U  @  U  U  #  U  H  U  #  H  U  #  O  M  #  #  M  O  @  H  
+
+6   U  U  O  M  O  H  H  U  U  H  H  M  H  #  U  M  #  H  H  O  O  #  O  H  U  U  M  O  H  O  M  O  O  O  
+
+7   U  #  #  #  #  @  U  H  M  U  @  H  U  @  O  U  #  H  H  U  H  H  M  U  U  #  @  U  O  H  M  H  O  M  
+
+8   U  O  O  O  @  U  @  @  O  H  H  U  @  M  U  H  H  @  U  #  U  U  M  H  U  H  M  O  M  U  H  @  H  @  
+
+9   U  H  U  U  U  O  M  H  M  M  U  U  U  O  O  O  U  #  M  H  U  O  M  H  #  O  #  @  U  M  M  H  U  O  
+
+10  O  U  H  U  U  U  O  #  U  M  O  H  O  H  U  U  U  H  M  U  O  U  O  U  O  @  H  #  U  O  U  M  #  U  
+
+11  U  O  #  H  O  U  H  U  O  O  H  #  U  O  O  #  O  H  O  U  U  U  H  U  H  O  O  U  U  U  H  U  #  H  
+
+12  O  O  O  U  O  U  O  U  U  #  U  H  O  #  U  U  U  U  #  H  O  #  U  #  O  #  U  U  U  U  U  M  O  U  
+
+13  O  H  M  H  O  O  M  #  #  O  O  U  M  O  U  M  U  @  #  U  @  O  U  H  O  U  O  M  U  H  H  #  O  U  
+
+14  U  U  O  H  H  U  M  M  #  #  H  U  U  U  U  H  @  O  U  U  #  U  U  M  M  O  #  #  U  O  U  @  O  O  
+
+15  H  U  H  U  U  H  H  #  M  #  U  H  O  U  #  O  U  H  U  U  #  M  #  #  M  #  U  M  M  @  U  U  M  @  
+
+16  U  H  H  H  H  U  U  @  H  U  O  O  U  H  U  U  U  U  H  O  O  #  O  #  M  O  U  U  O  @  U  #  U  U  
+
+17  H  H  U  U  U  U  H  M  O  H  H  H  U  M  @  O  U  U  U  H  O  U  M  O  U  H  #  U  U  H  #  #  H  #  
+
+18  H  O  @  U  H  O  M  O  @  U  H  H  @  #  O  O  H  U  #  H  H  #  O  M  #  H  U  H  M  O  #  H  #  #  
+
+19  O  U  O  O  U  H  #  M  O  #  M  U  O  H  U  U  H  O  H  #  U  H  U  U  O  @  H  U  H  U  H  #  O  U  
+
+20  H  U  H  U  H  U  U  @  #  M  U  U  H  O  H  O  U  M  #  U  U  O  O  O  U  U  H  U  U  O  U  M  O  U  
+
+21  H  M  H  O  M  H  U  @  #  O  U  U  H  U  U  O  M  O  H  O  H  U  U  O  #  M  H  U  #  #  #  @  M  H  
+
+22  H  O  O  #  #  U  U  U  @  #  #  @  U  U  O  U  U  U  #  H  #  #  #  @  U  O  M  #  #  O  U  U  U  #  
+
+23  U  U  H  U  #  H  U  M  U  #  U  H  U  O  H  U  #  H  H  #  H  H  U  #  O  U  M  U  U  H  H  O  M  U  
+
+24  @  #  #  U  O  U  U  @  H  M  O  O  U  H  U  O  U  O  @  M  O  U  U  U  H  O  M  U  H  O  U  U  O  @  
+
+25  O  H  U  @  #  H  M  O  U  H  #  U  M  #  M  #  U  U  O  M  #  U  H  #  U  U  O  H  U  #  U  U  H  U  
+
+26  H  H  #  U  #  U  H  #  #  H  @  M  U  M  U  U  #  U  U  U  U  U  M  @  H  U  U  O  O  H  H  M  M  U  
+
+27  U  #  U  U  #  #  #  U  @  U  M  U  #  U  #  U  @  H  U  O  U  H  #  M  M  U  U  #  U  U  U  O  U  O  
+
+28  H  #  O  U  #  O  O  M  M  O  O  M  M  O  U  M  U  @  #  H  O  M  O  M  U  H  H  U  M  H  O  #  H  H  
+
+29  U  U  #  M  H  M  H  #  #  U  O  H  @  M  U  @  #  @  O  M  #  U  U  H  O  M  O  U  U  U  M  U  M  M  
+
+30  H  #  #  O  #  M  O  U  U  #  @  U  #  #  O  U  U  U  @  @  #  O  M  U  U  H  @  H  U  M  @  #  M  #  
+
+31  U  U  U  H  #  M  @  @  H  @  #  #  U  U  U  U  M  H  #  O  H  U  M  U  H  U  U  H  H  @  H  U  M  #  
+
+32  O  M  U  #  O  M  #  O  #  U  O  U  O  H  O  U  @  U  #  O  U  H  H  @  O  U  H  U  M  #  H  U  U  H  
+
+33  O  O  #  H  H  #  O  O  H  H  #  @  #  U  U  #  O  M  H  U  O  U  M  #  H  O  #  M  U  U  #  #  M  #  
+
+34  U  U  M  #  O  U  H  O  U  H  O  H  @  U  U  H  #  H  #  U  #  H  H  O  H  O  H  H  U  U  U  O  U  H  
+

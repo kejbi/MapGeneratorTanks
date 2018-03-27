@@ -10,8 +10,8 @@
 
 class MapReader {
 public:
-    Map* read(std::string name, std::fstream& file);
-    void write(std::string name, Map* map);
-    void writeOnlyViewMode(std::string name, Map* map);
+    Map* read(std::string name, std::fstream& file); //reads symbol map from file
+    void write(std::string name, Map* map); // writes map to file without coordiantes, just like map to read
+    void writeOnlyViewMode(std::string name, Map* map); // writes map to file with coordinates, we can't read it to program
 };
 #endif //TANKSMAPGENERATOR_MAPREADER_H

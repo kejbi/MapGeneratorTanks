@@ -60,7 +60,7 @@ int InputValidator::singleSymbolTest(char a) {
 }
 
 int InputValidator::isMap(Map* m) {
-    if(m->getSize()==0){
+    if(m== nullptr){
         std::cout<<"Can't do anything, because there's no map!"<<std::endl;
         return 0;
     }

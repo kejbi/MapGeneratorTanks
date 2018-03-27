@@ -7,12 +7,12 @@
 
 class Tile{
 protected:
-    int x, y;
-    char symbol;
-    bool walkable;
+    int x, y; //coordinates
+    char symbol; //symbol of tile
+    bool walkable; //tells if tank can hover the tile
 public:
-    virtual void onHit()=0;
-    virtual void onHover()=0;
-    char getSymbol();
+    virtual void onHit()=0; //virtual metod, every tile reacts differently for event on hit
+    virtual void onHover()=0; //virtual metod, every tile reacts differently for event on hover
+    char getSymbol(); //virtual metod, returns a tile symbol
 };
 #endif //TANKSMAPGENERATOR_TILE_H

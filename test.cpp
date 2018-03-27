@@ -47,7 +47,7 @@ int Test::writeReadTest() {
     Map* n;
     std::fstream file;
     MapModificator mm;
-    m=mm.generateMap(3,15);
+    m=mm.generateMap(3,20);
     MapReader mr;
     mr.write("test_auto.txt",m);
     n=mr.read("test_auto.txt",file);

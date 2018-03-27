@@ -9,7 +9,7 @@
 int main() {
     srand(time(NULL));
     Menu menu;
-    menu.run();
+    menu.run(); //starting menu
 //    Test t;
 //    t.memoryTest();
 

@@ -7,14 +7,14 @@
 
 #include "tile.h"
 
-class Bricks: public Tile{
+class Bricks: public Tile{ //a brick tile in map
 private:
-    int hp;
+    int hp; //health points of tile
 public:
     Bricks(int a, int b);
     void onHit() override;
     void onHover() override;
-    void destroyed();
+    void destroyed(); //what happens when hp=0;
 
 };
 #endif //TANKSMAPGENERATOR_BRICKS_H

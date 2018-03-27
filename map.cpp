@@ -31,7 +31,7 @@ std::ostream& operator<< (std::ostream& out, Map* const& m){
         else{
             out << i << "   ";
         }
-        for(int j=0;j<m->tab[i-1].length();j++){
+        for(int j=0;j<m->size;j++){
             out << m->tab[i-1][j] << "  ";
         }
         out << std::endl << std::endl;
@@ -45,4 +45,6 @@ int Map::getSize() {
 void Map::setSize(int s) {
     size=s;
 }
+
+
 

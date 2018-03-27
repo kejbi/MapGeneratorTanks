@@ -26,8 +26,8 @@ Map* MapReader::read(std::string name, std::fstream& file){
 void MapReader::write(std::string name, Map* map){
     std::fstream file;
     file.open(name,std::ios::out);
-    for(int i=0;i<map->tab.size();i++){
-        for(int j=0;j<map->tab[i].length();j++){
+    for(int i=0;i<map->size;i++){
+        for(int j=0;j<map->size;j++){
             file<<map->tab[i][j];
         }
         file<<std::endl;

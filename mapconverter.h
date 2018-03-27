@@ -12,8 +12,8 @@
 
 class MapConverter{
 public:
-    ObjectMap* exportMap(Map* m);
-    ObjectMap* freeMemory(ObjectMap* om);
+    ObjectMap* exportMap(Map* m); //exports symbol map to object map (every tile has own facilities)
+    ObjectMap* freeMemory(ObjectMap* om); //free memory allocated for object map
 };
 
 
