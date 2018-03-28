@@ -42,6 +42,7 @@ void Menu::run() {
                 break;
 
         }
+        std::cout<<"\n\n";
     }
 
 }
@@ -49,13 +50,16 @@ void Menu::run() {
 void Menu::reading() {
     std::cout<<"Enter the file name:"<<std::endl;
     readName();
+    map=mm.freeMemory(map);
     map=mr.read(file_name,file);
     if(!(iv.sizeTest(map->getMap()))){
+        map=mm.freeMemory(map);
         map= nullptr;
         return;
     }
     if(!(iv.symbolTest(map->getMap())))
     {
+        map=mm.freeMemory(map);
         map= nullptr;
         return;
     }
@@ -146,7 +150,7 @@ void Menu::display() {
                     "better use writeOnlyViewMode!\nDo you want do that now?\n1.yes 2.no"<<std::endl;
             readChoice(1,2);
             if(choice==1){
-                writing();
+                writingOnlyViewMode();
             }
         }
         else{
@@ -191,6 +195,17 @@ void Menu::quit() {
         objectmap=mc.freeMemory(objectmap);
     }
     running=0;
+}
+
+void Menu::writingOnlyViewMode() {
+    std::cout<<"Enter the file name"<<std::endl;
+    std::cin>>file_name;
+    if(choice==1){
+        mr.write(file_name,map);
+    }
+    else{
+        mr.writeOnlyViewMode(file_name,map);
+    }
 }
 
 

@@ -10,6 +10,7 @@
 #include "mapreader.h"
 #include "objectmap.h"
 #include "mapconverter.h"
+#include "inputvalidator.h"
 
 int Test::symbolTest() {
     Map* m;
@@ -119,6 +120,12 @@ void Test::runTests() {
     else{
         std::cout<<"Object Map test: Success"<<std::endl;
     }
+    if(!validatorsTest()){
+        std::cout<<"Error (validators test)"<<std::endl;
+    }
+    else{
+        std::cout<<"Validator test: Success"<<std::endl;
+    }
 
 }
 
@@ -137,4 +144,36 @@ void Test::memoryTest() {
     m=mm.freeMemory(m);
 
 
+}
+
+int Test::validatorsTest() {
+    InputValidator iv;
+    Map* m= nullptr;
+    std::vector <std::string> tab(3);
+    tab[0]="MHU";
+    tab[1]="U@#";
+    tab[2]="UOU";
+    if(iv.isMap(m)!=0){
+        return 0;
+    }
+    if(iv.numberTest(1,1)!=1){
+        return 0;
+    }
+    if(iv.numberTest(1,2,2)!=1){
+        return 0;
+    }
+    if(iv.singleSymbolTest('Q')!=0 || iv.singleSymbolTest('1')!=0){
+        return 0;
+    }
+    if(iv.sizeTest(tab)!=1){
+        return 0;
+    }
+    if(iv.symbolTest(tab)!=1){
+        return 0;
+    }
+    tab[2]="QWE";
+    if(iv.symbolTest(tab)!=0){
+        return 0;
+    }
+    return 1;
 }

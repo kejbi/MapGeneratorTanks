@@ -11,7 +11,7 @@ int main() {
     Menu menu;
     menu.run(); //starting menu
 //    Test t;
-//    t.memoryTest();
-
+//    t.runTests();//starting tests
+//  One of Menu and Test must be commented
     return 0;
 }

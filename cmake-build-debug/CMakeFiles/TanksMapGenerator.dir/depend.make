@@ -85,6 +85,7 @@ CMakeFiles/TanksMapGenerator.dir/rocks.cpp.o: ../rocks.h
 CMakeFiles/TanksMapGenerator.dir/rocks.cpp.o: ../tile.h
 
 CMakeFiles/TanksMapGenerator.dir/test.cpp.o: ../bricks.h
+CMakeFiles/TanksMapGenerator.dir/test.cpp.o: ../inputvalidator.h
 CMakeFiles/TanksMapGenerator.dir/test.cpp.o: ../map.h
 CMakeFiles/TanksMapGenerator.dir/test.cpp.o: ../mapconverter.h
 CMakeFiles/TanksMapGenerator.dir/test.cpp.o: ../mapmodificator.h

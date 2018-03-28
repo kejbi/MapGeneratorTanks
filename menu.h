@@ -41,5 +41,6 @@ private:
     void exporting();
     void testing();
     void quit();
+    void writingOnlyViewMode();
 };
 #endif //TANKSMAPGENERATOR_MENU_H

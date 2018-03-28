@@ -189,6 +189,8 @@ objectmap.h
 /home/kejbi/CLionProjects/TanksMapGenerator/objectmap.h
 mapconverter.h
 /home/kejbi/CLionProjects/TanksMapGenerator/mapconverter.h
+inputvalidator.h
+/home/kejbi/CLionProjects/TanksMapGenerator/inputvalidator.h
 
 /home/kejbi/CLionProjects/TanksMapGenerator/test.h
 
